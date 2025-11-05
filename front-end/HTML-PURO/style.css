@@ -1,0 +1,77 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+}
+
+header {
+  background: #ddd;
+  padding: 10px;
+}
+
+.nav-bar {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.nav-bar input {
+  flex: 1;
+  padding: 5px;
+}
+
+main {
+  padding: 20px;
+}
+
+.add-lembrete {
+  margin-bottom: 20px;
+}
+
+.add-lembrete input {
+  padding: 8px;
+  width: 60%;
+  margin-right: 10px;
+}
+
+.add-lembrete button {
+  padding: 8px 16px;
+}
+
+.lembrete {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.lembrete-card {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  width: 300px;
+}
+
+.lembrete-card h3 {
+  margin-top: 0;
+}
+
+.lembrete-card ul {
+  padding-left: 20px;
+}
+
+.observation-input {
+  margin-top: 10px;
+  display: flex;
+  gap: 5px;
+}
+
+.observation-input input {
+  flex: 1;
+  padding: 5px;
+}
+
+.observation-input button {
+  padding: 5px 10px;
+}
