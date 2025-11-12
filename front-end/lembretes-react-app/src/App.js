@@ -5,7 +5,7 @@ import LembreteCard from './components/LembreteCard';
 
 function App() {
   const {
-    lembreteInput,
+    lembreteInput ,
     setLembreteInput,
     lembretes,
     adicionarLembrete,
